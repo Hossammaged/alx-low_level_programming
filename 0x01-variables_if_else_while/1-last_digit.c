@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main assing and print a random number to the veriable n
+ * main -  assing and print a random number to the veriable n
  * Return: Always 0
  */
 
