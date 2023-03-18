@@ -1,22 +1,23 @@
 #include <stdio.h>
 
 /**
- * main - print alphabet in new line.
+ * main - print alphabet is new line.
  * Return: Always 0
  */
 
 int main(void)
 {
-	char ch;
+	int n;
+	int al;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
+	for (n = '0' ; n <= '9' ; n++)
 	{
-		putchar(ch);
+		putchar(n);
 	}
 
-	for (ch = 'A' ; ch <= 'Z' ; ch++)
+	for (al = 'a' ; al <= 'f' ; al++)
 	{
-		putchar(ch);
+		putchar(al);
 	}
 
 	putchar('\n');
